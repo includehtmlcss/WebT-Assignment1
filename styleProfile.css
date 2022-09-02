@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/jenna-sue');
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 222, 199, 0.55);
+}
+
+.image {
+    background-image: url(./photo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -99;
+}
+
+p.line {
+    font-size: 2.7rem;
+    font-weight: 100;
+}
+
+p.name {
+    font-family: 'Jenna Sue', sans-serif;
+    font-size: 7rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #d6722b;
+}
+
+.content {
+    position: fixed;
+    top: 20vh;
+    left: 6rem;
+}
+
+.contact {
+    top: 12vh;
+}
+
+.btn {
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    border: 2px solid #d6722b;
+    cursor: pointer;
+}
+
+.resume-btn {
+    background-color: #d6722b;
+    color: rgb(255, 242, 234);
+}
+
+.resume-btn:hover {
+    background-color: transparent;
+    color: #d6722b;
+}
+
+.contact-btn {
+    background-color: transparent;
+    color: #d6722b;
+}
+
+.contact-btn:hover {
+    background-color: #d6722b;
+    color: rgb(255, 242, 234);
+}
+
+.form-container {
+    background-color: rgba(255, 251, 248, 0.6);
+    width: 380px;
+    padding: 2.3rem 2rem;
+    border-radius: 15px;
+    box-shadow: 6px 6px 50px rgba(49, 24, 1, 0.2);
+}
+
+.form-container h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #d6722b;
+    font-family: 'Jenna Sue', sans-serif;
+    font-weight: lighter;
+}
+
+.field {
+    margin-bottom: 0.4rem;
+    color: rgb(87, 87, 87);
+}
+
+.input-area {
+    width: 100%;
+    outline: none;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #d6722b;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+
+.submit-btn {
+    border: 1px solid #d6722b;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    border: 1px solid #d6722b;
+}
+
+.btn-container {
+    text-align: center;
+}
